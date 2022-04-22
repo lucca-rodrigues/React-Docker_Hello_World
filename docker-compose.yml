@@ -9,7 +9,7 @@ services:
       dockerfile: .
     container_name: hello_world_react
     volumes:
-      - ./hello-world/src:/app/src
+      - ./src:/app/src
     restart: always
     ports:
       - 3000:3000
